@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "brand": "JBL",
+    "name": "JBL Tune 570BT Wireless Kulaklık, CT, OE, Siyah",
+    "price": 1363,
+    "image": "https://cdn.dsmcdn.com/ty997/product/media/images/prod/SPM/PIM/20230907/12/1b52ddd6-a0c7-3834-97b3-926a28abe1aa/1_org_zoom.jpg"
+  },
+  {
+    "id": 2,
+    "brand": "JBL",
+    "name": "JBL Tune 560bt Wireless Kulak Üstü Kulaklık Mavi",
+    "price": 1449,
+    "image": "https://cdn.dsmcdn.com/ty1228/product/media/images/prod/SPM/PIM/20240325/03/ecec5eb2-a1ee-3d65-bebb-e5a4443cddb0/1_org_zoom.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "JBL",
+    "name": "JBL Wave 100tws, Siyah Kablosuz Kulakiçi Kulaklık ( Türkiye Garantili)",
+    "price": 1781,
+    "image": "https://cdn.dsmcdn.com/ty1022/product/media/images/prod/SPM/PIM/20231018/14/0211309a-c992-3a21-ad96-5e72bfbd9245/1_org_zoom.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "JBL",
+    "name": "JBL Tune 560bt Bluetooth Kulak Üstü Kulaklık Beyaz",
+    "price": 1470,
+    "image": "https://cdn.dsmcdn.com/ty1229/product/media/images/prod/SPM/PIM/20240325/03/805e873f-82a4-3616-9906-2ecb39bfcc17/1_org_zoom.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "JBL",
+    "name": "JBL Wave 100tws, Krem Kablosuz Kulakiçi Kulaklık, Ie, ( Türkiye Garantili)",
+    "price": 1700,
+    "image": "https://cdn.dsmcdn.com/ty1020/product/media/images/prod/SPM/PIM/20231018/15/17126e96-c739-3a3a-8b76-d7e3cf92d73c/1_org_zoom.jpg"
+  },
+  {
+    "id": 6,
+    "brand": "JBL",
+    "name": "JBL WAVE BEAM KULAKİÇİ TWS KULAKLIK",
+    "price": 2215,
+    "image": "https://cdn.dsmcdn.com/ty1000/product/media/images/prod/SPM/PIM/20230919/02/d93e3bd6-1f75-36b3-af93-5329d388db4d/1_org_zoom.jpg"
+  },
+  {
+    "id": 7,
+    "brand": "JBL",
+    "name": "JBL Tune 520bt Multi Connect Wireless Kulaklık, Mor",
+    "price": 1519,
+    "image": "https://cdn.dsmcdn.com/ty997/product/media/images/prod/SPM/PIM/20230910/08/ffab4d1a-efa4-3435-a845-6e337fecbdcd/1_org_zoom.jpg"
+  },
+  {
+    "id": 8,
+    "brand": "JBL",
+    "name": "JBL Tune 570BT Wireless Kulaklık, CT, OE, Pembe",
+    "price": 1799,
+    "image": "https://public-mdc.trendyol.com/discovery-web-socialgw-service/reviews/jbl/tune-520bt-multi-connect-wireless-kulaklik-mor-p-702013944/yorumlar?boutiqueId=61&merchantId=188108&culture=tr-TR&storefrontId=1&RRsocialproofAbTesting=A&logged-in=false&isBuyer=false&channelId=1"
+  },
+  {
+    "id": 9,
+    "brand": "JBL",
+    "name": "JBL Tune 720bt Wireless Kulaklık, Ct, Oe,siyah",
+    "price": 2549,
+    "image": "https://cdn.dsmcdn.com/ty968/product/media/images/20230719/5/394941321/928220692/1/1_org_zoom.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "JBL",
+    "name": "JBL Tune Flex Nc Kulakiçi Tws Kulaklık Beyaz",
+    "price": 2442,
+    "image": "https://cdn.dsmcdn.com/ty1005/product/media/images/prod/SPM/PIM/20230929/19/fce2d773-7d7b-32eb-b5f3-052634f67acb/1_org_zoom.jpg"
+  },
+ 
+   {
+     "id": 11,
+     "brand": " Xiaomi",
+     "name": "Xiaomi Mi True Wireless Earbuds Basic 2",
+     "price": 699,
+     "image": "https://cdn.dsmcdn.com/ty112/product/media/images/20210507/11/86598792/141784259/1/1_org_zoom.jpg"
+   },
+     {
+       "id": 12,
+       "brand": " Xiaomi",
+       "name": "Xiaomi Android Xiaomi Mi True Wireless Earphones 2 Basic Bluetooth Kulaklık Uyumlu",
+       "price": 799,
+       "image": "https://cdn.dsmcdn.com/ty65/product/media/images/20210205/1/60055060/137790630/1/1_org_zoom.jpg"
+     },
+      {
+       "id": 13,
+       "brand": " Xiaomi",
+       "name": "Xiaomi Mıııw Bluetooth Kulaklık Yeni Versiyon 2024 (XİAOMİ TÜRKİYE GARANTİLİ)",
+       "price": 599.90,
+       "image": "https://cdn.dsmcdn.com/ty1231/product/media/images/prod/SPM/PIM/20240328/14/64aca582-afb9-343a-9958-51db0a67e983/1_org_zoom.jpg"
+     },
+      {
+          "id": 14,
+          "brand": " Xiaomi",
+          "name": "Xiaomi Redmi Buds 3 Bluetooth Kulaklık Beyaz",
+          "price": 750,
+          "image": "https://cdn.dsmcdn.com/ty271/product/media/images/20211214/9/10545525/337280528/1/1_org_zoom.jpg"
+      },
+      {
+          "id": 15,
+          "brand": " Xiaomi",
+          "name": "Xiaomi Redmi Buds 3 Gümüş Pro Bluetooth Kulaklık (Xiaomi Türkiye Garantili)",
+          "price": 1715,
+          "image": "https://cdn.dsmcdn.com/ty981/product/media/images/20230809/15/401532543/273936120/2/2_org_zoom.jpg"
+      }
+
+]
