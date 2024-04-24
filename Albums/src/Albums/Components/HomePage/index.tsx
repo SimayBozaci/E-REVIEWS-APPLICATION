@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import {Animated, StyleSheet, Text, View} from 'react-native';
 
-const HomeHeader = () => {
+const HomePage = () => {
   const pulseAnimation = useRef(new Animated.Value(0)).current;
 
   React.useEffect(() => {
@@ -106,4 +106,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeHeader;
+export default HomePage;

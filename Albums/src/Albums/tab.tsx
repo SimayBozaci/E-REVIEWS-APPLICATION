@@ -1,8 +1,14 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import React from 'react';
-import {Image} from 'react-native';
+import {Image, View} from 'react-native';
 
-import {AboutScreen, HomeScreen, ProductsScreen} from '.';
+import HomeScreen from './Containers/HomeScreen';
+// import ProductScreen from './Containers/ProductScreen';
+import AboutScreen from './Containers/AboutScreen';
+import ProductScreen from './Containers/ProductScreen';
+// import ProductScreen from './Containers/ProductScreen';
+
+
 
 const NewTab = createBottomTabNavigator();
 
@@ -11,6 +17,7 @@ const TabsNew = () => {
     <NewTab.Navigator>
       <NewTab.Screen
         name="Home"
+       
         component={HomeScreen}
         options={{
           headerShown: false,
@@ -30,7 +37,7 @@ const TabsNew = () => {
 
       <NewTab.Screen
         name="Products"
-        component={ProductsScreen}
+        component={ProductScreen}
         options={{
           headerShown: false,
           tabBarIcon: ({focused}) => (

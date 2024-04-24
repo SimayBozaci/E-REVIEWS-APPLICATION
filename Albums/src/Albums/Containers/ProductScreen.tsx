@@ -3,12 +3,14 @@ import {StyleSheet, View} from 'react-native';
 import ProductHeader from '../Components/ProductHeader';
 import ProductList from '../Components/ProductList';
 
-const ProductScreen = ({}) => {
+const ProductScreen = () => {
   return (
     <View style={styles.container}>
-      <ProductHeader />
-      <ProductList />
+    <ProductList />
     </View>
+    
+     
+    
   );
 };
 

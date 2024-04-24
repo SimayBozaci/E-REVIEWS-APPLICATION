@@ -3,7 +3,7 @@ import {StyleSheet, View} from 'react-native';
 import AboutScreenHeader from '../Components/AboutScreen';
 import AboutScreenPage from '../Components/AboutScreenHeader';
 
-const AboutScreen = ({}) => {
+const AboutScreen = () => {
   return (
     <View style={styles.container}>
       <AboutScreenHeader />
