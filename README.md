@@ -1,6 +1,5 @@
-![WhatsApp Image 2024-05-08 at 14 13 52](https://github.com/SimayBozaci/E-REVIEWS-APPLICATION/assets/103003247/2a28798a-3648-4a49-a027-14ac725c48f3)
-![WhatsApp Image 2024-05-08 at 14 13 52 (1)](https://github.com/SimayBozaci/E-REVIEWS-APPLICATION/assets/103003247/018fa45f-d721-4f1f-b5b4-fe429a6a20b1)
-![WhatsApp Image 2024-05-08 at 14 13 52 (2)](https://github.com/SimayBozaci/E-REVIEWS-APPLICATION/assets/103003247/2eab565f-525b-41b2-a460-82c96505a7b1)
-![WhatsApp Image 2024-05-08 at 14 13 52 (3)](https://github.com/SimayBozaci/E-REVIEWS-APPLICATION/assets/103003247/01e7f94d-fb10-4ab9-a702-9232e6e065bd)
-
-
+![WhatsApp Image 2024-04-24 at 22 49 07](https://github.com/SimayBozaci/E-REVIEWS-APPLICATION/assets/103003247/90551f61-8f69-4244-a635-9bba396d0246)
+![WhatsApp Image 2024-04-24 at 22 49 12](https://github.com/SimayBozaci/E-REVIEWS-APPLICATION/assets/103003247/c49c4da8-03df-48f3-abd0-9adabbd280db)
+![WhatsApp Image 2024-04-24 at 22 49 07 (1)](https://github.com/SimayBozaci/E-REVIEWS-APPLICATION/assets/103003247/4acddc08-e5cb-4779-83a6-7e1cd9
+![WhatsApp Image 2024-04-24 at 22 49 12 (1)](https://github.com/SimayBozaci/E-REVIEWS-APPLICATION/assets/103003247/be496a43-b3a7-4d7a-8665-d1fd55614173)
+5632ee)
