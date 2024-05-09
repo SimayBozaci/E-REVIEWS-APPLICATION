@@ -29,9 +29,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Create a machine learning pipeline
 pipeline = make_pipeline(
-    TfidfVectorizer(),   # Converts text into TF-IDF feature vectors arastır
-    # neye göre ayırt ediyor
-    LogisticRegression() # Classification model
+    TfidfVectorizer(),   
+    
+    LogisticRegression() 
 )
 
 # Train the model
@@ -43,7 +43,7 @@ with open('pipeline.pkl', 'wb') as f:
     pickle.dump(pipeline, f)
 
 with open('pipeline.pkl', 'rb') as f:
-    loaded_model = pickle.load(f) # Yüklenen modeli kullanarak tahminler yapın
+    loaded_model = pickle.load(f) 
 predictions = loaded_model.predict(X_test)
 
 print("loaded model", predictions)
@@ -63,11 +63,9 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
 
-# Confusion matrixi çıkst görselleştir ve ne olduğunu öğren
+
 results = pd.DataFrame()
 X_test["predict"] = y_pred
-# hangi problemlerde precision hangi durumlarda recall hangi durumalrda f1 kullanılır neden?
-
 
 
 # tek yorum predict etme
