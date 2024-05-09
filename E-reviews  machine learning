@@ -1,0 +1,118 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import make_pipeline
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load data
+df = pd.read_csv('yorumlar.csv')
+print(df.head())
+
+# Filter the comments by label
+olumlu_yorumlar = df[df['Label'] == 1]
+olumsuz_yorumlar = df[df['Label'] == -1]
+
+# Select up to 50 comments from each category if available
+olumlu_secilen = olumlu_yorumlar.iloc[:50]
+olumsuz_secilen = olumsuz_yorumlar.iloc[:50]
+
+# Combine the selected comments
+yorumlar = pd.concat([olumlu_secilen, olumsuz_secilen])
+
+# Split comments and labels
+X = yorumlar['comment']
+y = yorumlar['Label']
+
+# Split into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create a machine learning pipeline
+pipeline = make_pipeline(
+    TfidfVectorizer(),   # Converts text into TF-IDF feature vectors arastır
+    # neye göre ayırt ediyor
+    LogisticRegression() # Classification model
+)
+
+# Train the model
+pipeline.fit(X_train, y_train)
+
+# Save to Pickle
+import pickle
+with open('pipeline.pkl', 'wb') as f:
+    pickle.dump(pipeline, f)
+
+with open('pipeline.pkl', 'rb') as f:
+    loaded_model = pickle.load(f) # Yüklenen modeli kullanarak tahminler yapın
+predictions = loaded_model.predict(X_test)
+
+print("loaded model", predictions)
+
+
+# Predict on the test set
+y_pred = pipeline.predict(X_test)
+
+
+
+print(type(X_test), "type")
+print(X_test)
+
+
+# Evaluate the model
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print(classification_report(y_test, y_pred))
+
+
+# Confusion matrixi çıkst görselleştir ve ne olduğunu öğren
+results = pd.DataFrame()
+X_test["predict"] = y_pred
+# hangi problemlerde precision hangi durumlarda recall hangi durumalrda f1 kullanılır neden?
+
+
+
+# tek yorum predict etme
+yorum1 = ["Bence çok kötü bir ürün"]
+y_pred_yorum1 = pipeline.predict(yorum1)
+print(yorum1)
+print(y_pred_yorum1)
+
+# tek yorum predict etme
+yorum2 = ["Bence çok iyi bir ürün"]
+y_pred_yorum2 = pipeline.predict(yorum2)
+print(yorum2)
+print(y_pred_yorum2)
+
+# tek yorum predict etme
+yorum3 = ["Bence bu bir ürün"]
+y_pred_yorum3 = pipeline.predict(yorum3)
+print(yorum3)
+print(y_pred_yorum3)
+
+
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Confusion matrix'i hesapla
+conf_matrix = confusion_matrix(y_test, y_pred)
+
+# Confusion matrix'i görselleştir
+plt.figure(figsize=(8, 6))
+sns.heatmap(conf_matrix, annot=True, fmt="d", cmap="Blues",
+            xticklabels=["Negatif", "Pozitif"],
+            yticklabels=["Negatif", "Pozitif"])
+plt.xlabel('Tahmin Edilen')
+plt.ylabel('Gerçek Değerler')
+plt.title('Confusion Matrix')
+plt.show()
+
+# Precision, recall ve F1-score'u hesapla
+from sklearn.metrics import precision_score, recall_score, f1_score
+
+precision = precision_score(y_test, y_pred)
+recall = recall_score(y_test, y_pred)
+f1 = f1_score(y_test, y_pred)
+
+print("Precision:", precision)
+print("Recall:", recall)
+print("F1-score:", f1)
